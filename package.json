@@ -1,0 +1,43 @@
+{
+  "name": "posthtml-plugin",
+  "description": "PostHTML plugin description",
+  "version": "1.0.0",
+  "author": "PostHTML",
+  "ava": {
+    "verbose": "true"
+  },
+  "bugs": "https://github.com/posthtml/posthtml-plugin-boilerplate/issues",
+  "dependencies": {
+    "posthtml": "^0.9.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "conventional-changelog": "^1.1.0",
+    "conventional-changelog-lint": "^1.0.0",
+    "husky": "^0.11.5",
+    "mversion": "^1.10.1",
+    "snazzy": "^4.0.0",
+    "standard": "^7.1.2"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "homepage": "https://github.com/posthtml/posthtml-plugin-boilerplate",
+  "keywords": [
+    "html",
+    "posthtml",
+    "posthtml-plugin"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": "posthtml/posthtml-plugin-boilerplate",
+  "scripts": {
+    "commitmsg": "conventional-changelog-lint -p angular -e",
+    "lint": "standard | snazzy",
+    "precommit": "npm run lint",
+    "release-major": "mversion major",
+    "release-minor": "mversion minor",
+    "release-patch": "mversion patch",
+    "test": "npm run lint && ava"
+  }
+}
