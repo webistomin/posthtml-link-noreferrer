@@ -1,36 +1,38 @@
 {
-  "name": "posthtml-plugin",
+  "name": "posthtml-link-noreferrer",
   "description": "PostHTML plugin description",
   "version": "1.0.0",
   "author": "PostHTML",
   "ava": {
     "verbose": "true"
   },
-  "bugs": "https://github.com/posthtml/posthtml-plugin-boilerplate/issues",
+  "bugs": "https://github.com/webistomin/posthtml-link-noreferrer/issues",
   "dependencies": {
-    "posthtml": "^0.9.0"
+    "posthtml": "^0.11.4"
   },
   "devDependencies": {
-    "ava": "^0.15.2",
-    "conventional-changelog": "^1.1.0",
-    "conventional-changelog-lint": "^1.0.0",
-    "husky": "^0.11.5",
-    "mversion": "^1.10.1",
-    "snazzy": "^4.0.0",
-    "standard": "^7.1.2"
+    "ava": "^2.1.0",
+    "conventional-changelog": "^3.1.8",
+    "conventional-changelog-lint": "^2.1.1",
+    "husky": "^3.0.0",
+    "mversion": "^1.13.0",
+    "snazzy": "^8.0.0",
+    "standard": "^12.0.1"
   },
   "engines": {
     "node": ">=4"
   },
-  "homepage": "https://github.com/posthtml/posthtml-plugin-boilerplate",
+  "homepage": "https://github.com/webistomin/posthtml-link-noreferrer",
   "keywords": [
     "html",
     "posthtml",
-    "posthtml-plugin"
+    "posthtml-plugin",
+    "link",
+    "noreferrer"
   ],
   "license": "MIT",
   "main": "lib",
-  "repository": "posthtml/posthtml-plugin-boilerplate",
+  "repository": "https://github.com/webistomin/posthtml-link-noreferrer",
   "scripts": {
     "commitmsg": "conventional-changelog-lint -p angular -e",
     "lint": "standard | snazzy",

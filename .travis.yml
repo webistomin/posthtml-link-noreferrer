@@ -1,4 +1,7 @@
 language: node_js
+
 node_js:
-  - latest
-  - stable
+  - "10.13.0"
+
+notifications:
+  email: false

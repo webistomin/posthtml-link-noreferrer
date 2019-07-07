@@ -3,9 +3,6 @@
 [![NPM][npm]][npm-url]
 [![Deps][deps]][deps-url]
 [![Build][build]][build-badge]
-[![Coverage][cover]][cover-badge]
-[![Standard Code Style][style]][style-url]
-[![Chat][chat]][chat-badge]
 
 Clone this repo and explain what your plugin do and why thousands of people need it ;)
 
@@ -31,7 +28,7 @@ After:
 
 Describe how big guys can install your plugin.
 
-> npm i posthtml posthtml-plugin
+> npm i posthtml-link-noreferrer
 
 ## Usage
 
@@ -89,20 +86,13 @@ See [PostHTML Guidelines](https://github.com/posthtml/posthtml/tree/master/docs)
 ### License [MIT](LICENSE)
 
 [npm]: https://img.shields.io/npm/v/posthtml.svg
-[npm-url]: https://npmjs.com/package/posthtml
+[npm-url]: https://npmjs.com/package/posthtml-link-noreferrer
 
 [deps]: https://david-dm.org/posthtml/posthtml.svg
-[deps-url]: https://david-dm.org/posthtml/posthtml
+[deps-url]: https://david-dm.org/webistomin/posthtml-link-noreferrer
 
 [style]: https://img.shields.io/badge/code%20style-standard-yellow.svg
 [style-url]: http://standardjs.com/
 
-[build]: https://travis-ci.org/posthtml/posthtml.svg?branch=master
-[build-badge]: https://travis-ci.org/posthtml/posthtml?branch=master
-
-[cover]: https://coveralls.io/repos/posthtml/posthtml/badge.svg?branch=master
-[cover-badge]: https://coveralls.io/r/posthtml/posthtml?branch=master
-
-
-[chat]: https://badges.gitter.im/posthtml/posthtml.svg
-[chat-badge]: https://gitter.im/posthtml/posthtml?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"
+[build]: https://travis-ci.org/webistomin/posthtml-link-noreferrer.svg?branch=master
+[build-badge]: https://travis-ci.org/webistomin/posthtml-link-noreferrer?branch=master
