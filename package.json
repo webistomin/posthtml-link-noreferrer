@@ -35,7 +35,6 @@
   "repository": "https://github.com/webistomin/posthtml-link-noreferrer",
   "scripts": {
     "lint": "standard | snazzy",
-    "precommit": "npm run lint",
     "release-major": "mversion major",
     "release-minor": "mversion minor",
     "release-patch": "mversion patch",
