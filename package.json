@@ -34,7 +34,6 @@
   "main": "lib",
   "repository": "https://github.com/webistomin/posthtml-link-noreferrer",
   "scripts": {
-    "commitmsg": "conventional-changelog-lint -p angular -e",
     "lint": "standard | snazzy",
     "precommit": "npm run lint",
     "release-major": "mversion major",

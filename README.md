@@ -1,7 +1,8 @@
-# PostHTML Plugin Boilerplate <img align="right" width="220" height="200" title="PostHTML logo" src="http://posthtml.github.io/posthtml/logo.svg">
+# posthtml-link-noreferrer <img align="right" width="220" height="200" title="PostHTML logo" src="http://posthtml.github.io/posthtml/logo.svg">
 
 [![NPM][npm]][npm-url]
 [![Deps][deps]][deps-url]
+[![DevDeps][dev-deps]][dev-deps-url]
 [![Build][build]][build-badge]
 
 Clone this repo and explain what your plugin do and why thousands of people need it ;)
@@ -10,25 +11,27 @@ Before:
 ``` html
 <html>
   <body>
-    <p class="wow">OMG</p>
+    <a href="/" target="_blank">External link</a>
+    <a href="/" target="_blank" rel="nofollow">External link</a>
+    <a href="/" target="_self">Home</a>
   </body>
 </html>
 ```
 
 After:
 ``` html
-<svg xmlns="http://www.w3.org/2000/svg">
-  <text class="wow" id="wow_id" fill="#4A83B4" fill-rule="evenodd" font-family="Verdana">
-    OMG
-  </text>
-</svg>
+<html>
+  <body>
+    <a href="/" target="_blank" rel="noopener noreferrer">External link</a>
+    <a href="/" target="_blank" rel="nofollow">External link</a>
+    <a href="/" target="_self">Home</a>
+  </body>
+</html>
 ```
 
 ## Install
 
-Describe how big guys can install your plugin.
-
-> npm i posthtml-link-noreferrer
+> npm i posthtml-link-noreferrer --save-dev
 
 ## Usage
 
@@ -85,14 +88,17 @@ See [PostHTML Guidelines](https://github.com/posthtml/posthtml/tree/master/docs)
 
 ### License [MIT](LICENSE)
 
-[npm]: https://img.shields.io/npm/v/posthtml.svg
+[npm]: https://img.shields.io/npm/v/posthtml-link-noreferrer.svg
 [npm-url]: https://npmjs.com/package/posthtml-link-noreferrer
 
 [deps]: https://david-dm.org/posthtml/posthtml.svg
 [deps-url]: https://david-dm.org/webistomin/posthtml-link-noreferrer
 
+[dev-deps]: https://david-dm.org/webistomin/posthtml-link-noreferrer/dev-status.svg
+[dev-deps-url]: https://david-dm.org/webistomin/posthtml-link-noreferrer?type=dev
+
 [style]: https://img.shields.io/badge/code%20style-standard-yellow.svg
 [style-url]: http://standardjs.com/
 
-[build]: https://travis-ci.org/webistomin/posthtml-link-noreferrer.svg?branch=master
-[build-badge]: https://travis-ci.org/webistomin/posthtml-link-noreferrer?branch=master
+[build]: https://travis-ci.com/webistomin/posthtml-link-noreferrer.svg?token=CqDseQbTs4cMwNAwVsgp&branch=master
+[build-badge]: https://travis-ci.com/webistomin/posthtml-link-noreferrer

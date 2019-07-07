@@ -1,0 +1,5 @@
+{
+  "hooks": {
+    "commitmsg": "conventional-changelog-lint -p angular -e"
+  }
+}
