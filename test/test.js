@@ -1,7 +1,7 @@
 'use strict'
 
 const test = require('ava')
-const plugin = require('..')
+const plugin = require('../lib/index')
 const {readFileSync} = require('fs')
 const path = require('path')
 const posthtml = require('posthtml')
