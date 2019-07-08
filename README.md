@@ -31,7 +31,9 @@ After:
 
 ## Install
 
-> npm i posthtml-link-noreferrer --save-dev
+```npm
+npm i posthtml-link-noreferrer --save-dev
+```
 
 ## Usage
 
