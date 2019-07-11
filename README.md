@@ -5,7 +5,9 @@
 [![DevDeps][dev-deps]][dev-deps-url]
 [![Build][build]][build-badge]
 
-Clone this repo and explain what your plugin do and why thousands of people need it ;)
+This plugin add `rel="noopener"` and `rel="noreferrer"` to all links that contain the attribute `target="_blank"`.
+
+Read more about problem in [google blog](https://developers.google.com/web/tools/lighthouse/audits/noopener).
 
 Before:
 ``` html
@@ -29,6 +31,9 @@ After:
 </html>
 ```
 
+## Demo
+[**DEMO**](https://mathiasbynens.github.io/rel-noopener/)
+
 ## Install
 
 ```npm
@@ -37,53 +42,33 @@ npm i posthtml-link-noreferrer --save-dev
 
 ## Usage
 
-Describe how people can use this plugin. Include info about build systems if it's
-necessary.
+### Gulp
 
 ``` js
-const fs = require('fs');
-const posthtml = require('posthtml');
-const posthtmlPlugin = require('posthtml-plugin');
+const gulp = require('gulp');
+const postHTML = require('gulp-posthtml');
+const postHTMLNoRef = require('posthtml-link-noreferrer');
 
-posthtml()
-    .use(posthtmlPlugin({ /* options */ }))
-    .process(html/*, options */)
-    .then(result => fs.writeFileSync('./after.html', result.html));
+const config = () => ({
+  plugins: [
+    postHTMLNoRef({
+      attr: ['noopener', 'noreferrer']
+    }),
+  ],
+});
+
+gulp.task('posthtml', () => gulp.src('./build/*.html')
+  .pipe(postHTML(config))
+  .pipe(gulp.dest('./build')));
 ```
 
 ## Options
 
-Describe all features of your plugin with examples of usage.
+| Option | Type | description | Possible subsets | Default value |
+| ------ | ------ | ------ | ------ | ------ |
+ attr | `array` | Describes rel attributes. | `'noopener'`, `'noreferrer'`, `'nofollow'` | `'noopener', 'noreferrer'` |
 
-### Feature
-Before:
-``` html
-<html>
-  <body>
-    <p>OMG</p>
-  </body>
-</html>
-```
-Add option:
-``` js
-const fs = require('fs');
-const posthtml = require('posthtml');
-const posthtmlPlugin = require('posthtml-plugin');
-
-posthtml()
-    .use(posthtmlPlugin({ feature: 'wow' }))
-    .process(html/*, options */)
-    .then(result => fs.writeFileSync('./after.html', result.html));
-```
-After:
-``` html
-<html>
-  <body>
-    <p class="wow">OMG</p>
-  </body>
-</html>
-```
-
+---
 ### Contributing
 
 See [PostHTML Guidelines](https://github.com/posthtml/posthtml/tree/master/docs) and [contribution guide](CONTRIBUTING.md).
