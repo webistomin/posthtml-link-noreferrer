@@ -1,7 +1,7 @@
 # posthtml-link-noreferrer <img align="right" width="220" height="200" title="PostHTML logo" src="http://posthtml.github.io/posthtml/logo.svg">
 
 [![NPM][npm]][npm-url]
-![npm](https://img.shields.io/npm/dw/posthtml-lazyload.svg)
+![npm](https://img.shields.io/npm/dw/posthtml-link-noreferrer.svg)
 [![Deps][deps]][deps-url]
 [![DevDeps][dev-deps]][dev-deps-url]
 [![Build][build]][build-badge]
