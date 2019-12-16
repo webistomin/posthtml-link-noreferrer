@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "ava": "^2.4.0",
-    "conventional-changelog": "^3.1.15",
+    "conventional-changelog": "^3.1.18",
     "conventional-changelog-lint": "^2.1.1",
     "husky": "^3.1.0",
     "mversion": "^1.13.0",
