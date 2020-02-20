@@ -12,24 +12,16 @@ Read more about problem in [google blog](https://developers.google.com/web/tools
 
 **Before:**
 ``` html
-<html>
-  <body>
-    <a href="/" target="_blank">External link</a>
-    <a href="/" target="_blank" rel="nofollow">External link</a>
-    <a href="/" target="_self">Home</a>
-  </body>
-</html>
+<a href="/" target="_blank">External link</a>
+<a href="/" target="_blank" rel="nofollow">External link</a>
+<a href="/" target="_self">Home</a>
 ```
 
 **After:**
 ``` html
-<html>
-  <body>
-    <a href="/" target="_blank" rel="noopener noreferrer">External link</a>
-    <a href="/" target="_blank" rel="nofollow">External link</a>
-    <a href="/" target="_self">Home</a>
-  </body>
-</html>
+<a href="/" target="_blank" rel="noopener noreferrer">External link</a>
+<a href="/" target="_blank" rel="nofollow">External link</a>
+<a href="/" target="_self">Home</a>
 ```
 
 ## Demo
