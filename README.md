@@ -10,6 +10,8 @@ This plugin add `rel="noopener"` and `rel="noreferrer"` to all links that contai
 
 Read more about problem in [google blog](https://developers.google.com/web/tools/lighthouse/audits/noopener).
 
+**⭐️ Star us on GitHub — it helps!**
+
 **Before:**
 ``` html
 <a href="/" target="_blank">External link</a>
@@ -36,6 +38,9 @@ npm i posthtml-link-noreferrer --save-dev
 ## Usage
 
 ### Gulp
+```npm
+npm i gulp-posthtml posthtml-link-noreferrer --save-dev
+```
 
 ```js
 const gulp = require('gulp');
@@ -56,6 +61,10 @@ gulp.task('posthtml', () => gulp.src('./build/*.html')
 ```
 
 ### Webpack
+```npm
+npm i html-loader posthtml-loader posthtml-link-noreferrer  --save-dev
+```
+
 ```js
 module: {
   rules: [
