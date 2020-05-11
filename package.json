@@ -17,7 +17,7 @@
     "husky": "^4.2.5",
     "mversion": "^1.13.0",
     "snazzy": "^8.0.0",
-    "standard": "^14.3.3"
+    "standard": "^14.3.4"
   },
   "engines": {
     "node": ">=4"
