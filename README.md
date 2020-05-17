@@ -10,7 +10,7 @@ This plugin add `rel="noopener"` and `rel="noreferrer"` to all links that contai
 
 Read more about problem in [google blog](https://developers.google.com/web/tools/lighthouse/audits/noopener).
 
-**⭐️ Star us on GitHub — it helps!**
+**⭐️ Star me on GitHub — it helps!**
 
 **Before:**
 ``` html
