@@ -14,7 +14,7 @@
     "ava": "^3.12.1",
     "conventional-changelog": "^3.1.23",
     "conventional-changelog-lint": "^2.1.1",
-    "husky": "^4.2.5",
+    "husky": "^4.3.0",
     "mversion": "^2.0.1",
     "snazzy": "^8.0.0",
     "standard": "^14.3.4"
