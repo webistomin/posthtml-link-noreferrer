@@ -11,7 +11,7 @@
     "posthtml": "^0.13.3"
   },
   "devDependencies": {
-    "ava": "^3.12.1",
+    "ava": "^3.13.0",
     "conventional-changelog": "^3.1.23",
     "conventional-changelog-lint": "^2.1.1",
     "husky": "^4.3.0",
