@@ -1,7 +1,7 @@
 {
   "name": "posthtml-link-noreferrer",
   "description": "This plugin add `rel=\"noopener\"` and `rel=\"noreferrer\"` to all links that contain the attribute `target=\"_blank\"`.",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "PostHTML",
   "ava": {
     "verbose": "true"
