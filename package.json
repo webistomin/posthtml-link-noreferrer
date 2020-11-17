@@ -8,7 +8,7 @@
   },
   "bugs": "https://github.com/webistomin/posthtml-link-noreferrer/issues",
   "dependencies": {
-    "posthtml": "^0.13.4"
+    "posthtml": "^0.14.0"
   },
   "devDependencies": {
     "ava": "^3.13.0",
