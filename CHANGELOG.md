@@ -17,3 +17,7 @@
 ## 1.0.9 (26 December 2020)
 
 - Update dependencies
+
+## 1.0.10 (21 May 2021)
+
+- Update dependencies
