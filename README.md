@@ -113,5 +113,5 @@ See [PostHTML Guidelines](https://github.com/posthtml/posthtml/tree/master/docs)
 [style]: https://img.shields.io/badge/code%20style-standard-yellow.svg
 [style-url]: http://standardjs.com/
 
-[build]: https://travis-ci.com/webistomin/posthtml-link-noreferrer.svg?token=CqDseQbTs4cMwNAwVsgp&branch=master
-[build-badge]: https://travis-ci.com/webistomin/posthtml-link-noreferrer
+[build]: https://github.com/webistomin/posthtml-link-noreferrer/actions/workflows/ci.yml/badge.svg
+[build-badge]: https://github.com/webistomin/posthtml-link-noreferrer/actions/workflows/ci.yml
